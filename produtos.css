@@ -1,0 +1,39 @@
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+#logo{
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*posicionar os link serviços e orçamento*/
+
+nav{
+    position:absolute;
+    margin-top: 100px;
+    right: 0;
+}
+
+/*home, serviços e orçamento um do ladro do outro*/
+nav li{
+    display:inline;
+    margin: 0 0 0 10px;
+}
+/*letras em maisculas da navegação*/
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
